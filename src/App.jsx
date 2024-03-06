@@ -1,3 +1,4 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import GlobalStyles from "./styles/GlobalStyles";
 import AppLayout from "./ui/AppLayout";
 
@@ -5,7 +6,11 @@ function App() {
   return (
     <>
       <GlobalStyles />
-      <AppLayout />
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<AppLayout />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

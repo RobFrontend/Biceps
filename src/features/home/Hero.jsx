@@ -11,6 +11,8 @@ const StyledHero = styled.section`
       rgb(0, 0, 0, 0.4)
     ),
     url("HeroBG.webp");
+  background-position: top;
+  background-size: cover;
   min-height: 90vh;
 `;
 
@@ -36,7 +38,7 @@ const HeroButtonsBox = styled.div`
   padding-top: 6.4rem;
 `;
 
-const StyledButton = styled.button`
+const StyledButton = styled.a`
   font-size: 2.4rem;
   border: none;
   background-color: var(--font-dark-dark);
@@ -125,8 +127,8 @@ function Hero() {
               </div>
             </HeroInfoBox>
             <HeroButtonsBox>
-              <StyledButton>Spradź ofertę</StyledButton>
-              <StyledButton>O Bicepsie</StyledButton>
+              <StyledButton href="#oferta">Spradź ofertę</StyledButton>
+              <StyledButton href="#onas">O Bicepsie</StyledButton>
             </HeroButtonsBox>
           </HeroBox>
         </Container>

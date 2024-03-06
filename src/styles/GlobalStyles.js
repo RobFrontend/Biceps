@@ -44,6 +44,7 @@ const GlobalStyles = createGlobalStyle`
 
 html{
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -52,6 +53,8 @@ body {
 
 a { 
   text-decoration: none;
+  color: inherit;
+  font-family: inherit;
 }
 
 ul {
@@ -61,6 +64,7 @@ ul {
 p{
   font-size: 1.8rem;
   margin-bottom: 1.8rem;
+  color: var(--font-dark-dark);
 }
 
 p,
@@ -72,13 +76,13 @@ h4 {
   hyphens: auto;
 }
 /* FIREFOX */
-* {
+/* * {
     scrollbar-width: thin;
     scrollbar-color: var(--color-hover) var(--color-body-background);;
-  }
+  } */
 
   /* Chrome, Edge, and Safari */
-  *::-webkit-scrollbar {
+  /* *::-webkit-scrollbar {
     width: 5px;
     height: 5px;
 
@@ -100,7 +104,7 @@ h4 {
   }
   *::-webkit-scrollbar-corner {
   background: transparent;
-}
+} */
 
 
 `;

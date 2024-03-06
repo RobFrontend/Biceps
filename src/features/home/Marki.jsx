@@ -1,4 +1,4 @@
-import { AttentionSeeker, Fade, Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 import styled from "styled-components";
 
 const StyledMarki = styled.div`
@@ -20,7 +20,7 @@ const IMG = styled.img`
 function Marki() {
   return (
     <StyledMarki>
-      <Fade direction="down">
+      <Fade direction="down" triggerOnce>
         <IMG src="LogoOlimp.png" alt="logo of nutrition company" />
         <IMG src="LogoActivelab.png" alt="logo of nutrition company" />
         <IMG src="LogoTrec.png" alt="logo of nutrition company" />

@@ -1,7 +1,8 @@
-import { AttentionSeeker, Fade, Zoom } from "react-awesome-reveal";
+import { AttentionSeeker, Fade } from "react-awesome-reveal";
 import Container from "../../ui/Container";
 import Heading from "../../ui/Heading";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const ProducenciBox = styled.div`
   display: flex;
@@ -34,9 +35,51 @@ const BicepsBox = styled.div`
     url("OnasBG.webp");
   border-radius: var(--border-radius-lg);
   padding: 1.8rem;
+  margin-bottom: 4.8rem;
   background-position: center;
   background-size: cover;
   box-shadow: var(--shadow-md);
+`;
+
+const Dostep = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.4rem;
+  /* align-items: center; */
+  justify-content: center;
+`;
+
+const Godziny = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  border: 2px solid var(--font-light-dark);
+  padding: 1.2rem;
+  border-radius: var(--border-radius-lg);
+  width: fit-content;
+  box-shadow: var(--shadow-md);
+  transition: transform 0.5s;
+  &:hover {
+    transform: translateY(-0.6rem);
+  }
+`;
+
+const GodzinySpan = styled.span`
+  font-size: 1.8rem;
+  color: var(--font-dark-dark);
+`;
+
+const DniOtwarcia = styled.div`
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  gap: 1.2rem;
+`;
+
+const StyledLink = styled(Link)`
+  font-size: 1.8rem;
+  color: var(--font-light-dark);
+  font-weight: 600;
 `;
 
 function Onas() {
@@ -44,8 +87,10 @@ function Onas() {
     <Fade triggerOnce>
       <section>
         <Container>
-          <Heading as="h2">O Bicepsie</Heading>
-          <Zoom triggerOnce>
+          <Heading as="h2" id="onas">
+            O Bicepsie
+          </Heading>
+          <Fade triggerOnce>
             <BicepsBox>
               <Heading as="h3">
                 Wiele lat doswiadczenia w suplementacji profesjonalnych
@@ -101,7 +146,42 @@ function Onas() {
                 na Allegro. Negocjujemy ceny!"
               </p>
             </BicepsBox>
-          </Zoom>
+          </Fade>
+          <Heading as="h3">Odzwiedź Biceps, napisz lub zadzwoń:</Heading>
+          <AttentionSeeker effect="pulse" triggerOnce>
+            <Dostep>
+              <Godziny>
+                <Heading as="h4">Godziny otwarca</Heading>
+                <DniOtwarcia>
+                  <GodzinySpan>Poniedziałek - piątek:</GodzinySpan>
+                  <GodzinySpan>10:00 - 18:00</GodzinySpan>
+                </DniOtwarcia>
+                <DniOtwarcia>
+                  <GodzinySpan>Sobota:</GodzinySpan>
+                  <GodzinySpan>10:00 - 14:00</GodzinySpan>
+                </DniOtwarcia>
+                <DniOtwarcia>
+                  <GodzinySpan>Niedziela:</GodzinySpan>
+                  <GodzinySpan>Na telefon</GodzinySpan>
+                </DniOtwarcia>
+              </Godziny>
+              <Godziny>
+                <Heading as="h4">Telefon:</Heading>
+                <GodzinySpan>663 216 132</GodzinySpan>
+                <Heading as="h4">E-mail:</Heading>
+                <GodzinySpan>biceps.legionowo@wp.pl</GodzinySpan>
+              </Godziny>
+              <Godziny>
+                <Heading as="h4">Facebook:</Heading>
+                <StyledLink
+                  to="https://www.facebook.com/p/Sklep-kulturystyczny-biceps-100063014632640/"
+                  target="_blank"
+                >
+                  Sklep-kulturystyczny-biceps
+                </StyledLink>
+              </Godziny>
+            </Dostep>
+          </AttentionSeeker>
         </Container>
       </section>
     </Fade>

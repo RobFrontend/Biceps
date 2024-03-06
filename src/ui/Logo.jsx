@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { onClickScrollSmoothTop } from "./HandleScrollTo";
 
 const StyledLogo = styled.button`
   border: none;
@@ -8,7 +9,7 @@ const StyledLogo = styled.button`
 
 const IMG = styled.img`
   background: none;
-  padding: 0.6rem;
+  /* padding: 0.6rem; */
   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.2));
   transition: all 0.5s;
   &:hover {
@@ -19,8 +20,8 @@ const IMG = styled.img`
 
 function Logo() {
   return (
-    <StyledLogo>
-      <IMG src="LogoBiceps.png" alt="Logo Biceps" />
+    <StyledLogo onClick={onClickScrollSmoothTop}>
+      <IMG src="LogoBiceps.png" alt="logo biceps" />
     </StyledLogo>
   );
 }
