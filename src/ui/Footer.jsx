@@ -8,7 +8,7 @@ const StyledFooter = styled.footer`
   position: relative;
   overflow: hidden;
 
-  &::after {
+  /* &::after {
     content: "";
     position: absolute;
     top: 0px;
@@ -22,7 +22,7 @@ const StyledFooter = styled.footer`
     height: 100%;
     opacity: 0.4;
     z-index: -1;
-  }
+  } */
 `;
 
 const FooterContentBox = styled.div`

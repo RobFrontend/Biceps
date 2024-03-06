@@ -80,6 +80,8 @@ h4 {
 iframe {
   border: none;
   opacity: 0.8;
+  width: 100%;
+  height: 35vh;
 }
 /* FIREFOX */
 /* * {
