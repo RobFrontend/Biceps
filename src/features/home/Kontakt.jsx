@@ -58,48 +58,50 @@ function Kontakt() {
           <Heading as="h2" id="kontakt" style={{ marginTop: "3.2rem" }}>
             Kontakt
           </Heading>
-          <KontaktBoxes>
-            <KontaktBox>
-              <Heading as="h3">Telefon</Heading>
-              <Heading as="h4">663 216 132</Heading>
-            </KontaktBox>
-            <KontaktBox>
-              <Heading as="h3">Email</Heading>
-              <Heading as="h4">biceps.legionowo@wp.pl</Heading>
-            </KontaktBox>
-            <KontaktBox>
-              <Heading as="h3">Adres</Heading>
-              <Heading as="h4">adresulicamiasto</Heading>
-            </KontaktBox>
-            <KontaktBox>
-              <Heading as="h3">Facebook</Heading>
-              <AttentionSeeker effect="pulse" delay={500} triggerOnce>
-                <Heading as="h4">
-                  <a
-                    href="https://www.facebook.com/p/Sklep-kulturystyczny-biceps-100063014632640/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Sklep-kulturystyczny-biceps
-                  </a>
-                </Heading>
-              </AttentionSeeker>
-            </KontaktBox>
-            <KontaktBox>
-              <Heading as="h3">Konsultacje</Heading>
-              <p>
-                Nie ważne czy jesteś początkującym leszczem czy hardkorowym
-                koksiarzem - zapraszamy na konsultacje suplementacyjne
-              </p>
-              <Heading as="h3">Zamów i odbierz</Heading>
-              <p>
-                Zamów odżywki przez telefon i odbierz osobiście. Dostaniesz
-                rabat!
-              </p>
-            </KontaktBox>
+          <Fade delay={500}>
+            <KontaktBoxes>
+              <KontaktBox>
+                <Heading as="h3">Telefon</Heading>
+                <Heading as="h4">663 216 132</Heading>
+              </KontaktBox>
+              <KontaktBox>
+                <Heading as="h3">Email</Heading>
+                <Heading as="h4">biceps.legionowo@wp.pl</Heading>
+              </KontaktBox>
+              <KontaktBox>
+                <Heading as="h3">Adres</Heading>
+                <Heading as="h4">adresulicamiasto</Heading>
+              </KontaktBox>
+              <KontaktBox>
+                <Heading as="h3">Facebook</Heading>
+                <AttentionSeeker effect="pulse" delay={500} triggerOnce>
+                  <Heading as="h4">
+                    <a
+                      href="https://www.facebook.com/p/Sklep-kulturystyczny-biceps-100063014632640/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Sklep-kulturystyczny-biceps
+                    </a>
+                  </Heading>
+                </AttentionSeeker>
+              </KontaktBox>
+              <KontaktBox>
+                <Heading as="h3">Konsultacje</Heading>
+                <p>
+                  Nie ważne czy jesteś początkującym leszczem czy hardkorowym
+                  koksiarzem - zapraszamy na konsultacje suplementacyjne
+                </p>
+                <Heading as="h3">Zamów i odbierz</Heading>
+                <p>
+                  Zamów odżywki przez telefon i odbierz osobiście. Dostaniesz
+                  rabat!
+                </p>
+              </KontaktBox>
 
-            <IMG src="Kasa.webp" alt="Kasa" />
-          </KontaktBoxes>
+              <IMG src="Kasa.webp" alt="Kasa" />
+            </KontaktBoxes>
+          </Fade>
         </Container>
         <Fade>
           <iframe
