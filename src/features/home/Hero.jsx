@@ -14,6 +14,7 @@ const StyledHero = styled.section`
   background-position: top;
   background-size: cover;
   min-height: 90vh;
+  overflow: hidden;
 `;
 
 const HeroBox = styled.div`
@@ -28,6 +29,15 @@ const HeroBox = styled.div`
 const HeroInfoBox = styled.div`
   display: flex;
   justify-content: space-between;
+  @media (max-width: 64em) {
+    flex-direction: column;
+    gap: 3.2rem;
+    align-items: center;
+    text-align: center;
+  }
+  @media (max-width: 35em) {
+    display: none;
+  }
 `;
 
 const HeroButtonsBox = styled.div`
@@ -36,6 +46,9 @@ const HeroButtonsBox = styled.div`
   justify-content: center;
   gap: 4.8rem;
   padding-top: 6.4rem;
+  @media (max-width: 35em) {
+    flex-direction: column;
+  }
 `;
 
 const StyledButton = styled.a`

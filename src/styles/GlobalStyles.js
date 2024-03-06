@@ -46,6 +46,18 @@ html{
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
+
+@media (max-width:64em) {
+  html{
+    font-size: 56.25%;
+  }
+}
+@media (max-width:50em) {
+  html{
+    font-size: 52.5%;
+  }
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: #f2f2f1;

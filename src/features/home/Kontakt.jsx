@@ -25,6 +25,9 @@ const KontaktBoxes = styled.div`
   grid-template-columns: repeat(2, 1fr);
   gap: 3.2rem;
   margin-bottom: 3.2rem;
+  @media (max-width: 35em) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 const KontaktBox = styled.div`
@@ -91,7 +94,7 @@ function Kontakt() {
               <Heading as="h3">Zamów i odbierz</Heading>
               <p>
                 Zamów odżywki przez telefon i odbierz osobiście. Dostaniesz
-                rabat !
+                rabat!
               </p>
             </KontaktBox>
 

@@ -15,6 +15,9 @@ const IMG = styled.img`
   filter: brightness(0) grayscale(1)
     drop-shadow(15px 10px 10px rgba(0, 0, 0, 0.2));
   opacity: 0.8;
+  @media (max-width: 35em) {
+    max-height: 3rem;
+  }
 `;
 
 function Marki() {
