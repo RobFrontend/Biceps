@@ -49,6 +49,7 @@ html{
 body {
   font-family: "Roboto", sans-serif;
   background-color: #f2f2f1;
+  overflow-x: hidden;
 }
 
 a { 
@@ -74,6 +75,11 @@ h3,
 h4 {
   overflow-wrap: break-word;
   hyphens: auto;
+}
+
+iframe {
+  border: none;
+  opacity: 0.8;
 }
 /* FIREFOX */
 /* * {

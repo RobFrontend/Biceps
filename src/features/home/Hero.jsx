@@ -112,7 +112,7 @@ function Hero() {
                   }}
                   as="h2"
                 >
-                  Najlepszej
+                  Doskonałej
                 </Heading>
                 <Heading
                   style={{

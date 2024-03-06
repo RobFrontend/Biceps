@@ -103,7 +103,7 @@ function Onas() {
                 Wyniki uzyskiwane w sporcie zawodowym zależą od dobrej
                 suplementacji. Wyczynowy, profesjonalny sport wymaga
                 profesjonalnych odżywek po to by być na siłowni i zawodach
-                lepszym od innych !{" "}
+                lepszym od innych!
               </p>
               <Heading as="h3">Odżywki najlepszych producentów:</Heading>
               <AttentionSeeker effect="pulse" delay={500} triggerOnce>
@@ -134,6 +134,14 @@ function Onas() {
                   <Producenci>Inne marki dostępne pod zamówienie</Producenci>
                 </ProducenciBox>
               </AttentionSeeker>
+              <Heading
+                as="h3"
+                style={{
+                  marginTop: "1.8rem",
+                }}
+              >
+                Negocjujemy ceny!
+              </Heading>
               <p
                 style={{
                   textAlign: "center",
@@ -143,7 +151,7 @@ function Onas() {
               >
                 "Jeśli chcesz kupić u nas odżywkę lub suplement przyjdź a my
                 postaramy się zbić tak cenę aby była równa lub niższa od aukcji
-                na Allegro. Negocjujemy ceny!"
+                na Allegro."
               </p>
             </BicepsBox>
           </Fade>
@@ -163,6 +171,9 @@ function Onas() {
                 <DniOtwarcia>
                   <GodzinySpan>Niedziela:</GodzinySpan>
                   <GodzinySpan>Na telefon</GodzinySpan>
+                </DniOtwarcia>
+                <DniOtwarcia>
+                  <GodzinySpan>adres ulica</GodzinySpan>
                 </DniOtwarcia>
               </Godziny>
               <Godziny>
