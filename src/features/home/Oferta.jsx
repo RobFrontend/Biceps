@@ -115,7 +115,7 @@ function Oferta() {
             removeArrowOnDeviceType={["tablet", "mobile"]}
           >
             <DyscyplinyBox>
-              <IMGdyscyplina src="Bieganie.webp" alt="aktywność" />
+              <IMGdyscyplina src="Bieganie.webp" alt="biegnąca osoba" />
               <TextBoxDyscyplina>
                 <p>Bieganie</p>
                 <DyscyplinaSpan>
@@ -125,7 +125,7 @@ function Oferta() {
             </DyscyplinyBox>
 
             <DyscyplinyBox>
-              <IMGdyscyplina src="Kulturystyka.webp" alt="aktywność" />
+              <IMGdyscyplina src="Kulturystyka.webp" alt="napięty kulturysta" />
               <TextBoxDyscyplina>
                 <p>Kulturystyka</p>
                 <DyscyplinaSpan>
@@ -135,7 +135,10 @@ function Oferta() {
             </DyscyplinyBox>
 
             <DyscyplinyBox>
-              <IMGdyscyplina src="Stretching.webp" alt="aktywność" />
+              <IMGdyscyplina
+                src="Stretching.webp"
+                alt="rozciągająca się osoba"
+              />
               <TextBoxDyscyplina>
                 <p>Stretching</p>
                 <DyscyplinaSpan>
@@ -146,7 +149,7 @@ function Oferta() {
             </DyscyplinyBox>
 
             <DyscyplinyBox>
-              <IMGdyscyplina src="Box.webp" alt="aktywność" />
+              <IMGdyscyplina src="Box.webp" alt="osoba uprawiająca boks" />
               <TextBoxDyscyplina>
                 <p>Boks</p>
                 <DyscyplinaSpan>
@@ -157,7 +160,7 @@ function Oferta() {
             </DyscyplinyBox>
 
             <DyscyplinyBox>
-              <IMGdyscyplina src="Taniec.webp" alt="aktywność" />
+              <IMGdyscyplina src="Taniec.webp" alt="tancerka" />
               <TextBoxDyscyplina>
                 <p>Taniec</p>
                 <DyscyplinaSpan>
@@ -167,7 +170,7 @@ function Oferta() {
             </DyscyplinyBox>
 
             <DyscyplinyBox>
-              <IMGdyscyplina src="Plywanie.webp" alt="aktywność" />
+              <IMGdyscyplina src="Plywanie.webp" alt="pływająca osoba" />
               <TextBoxDyscyplina>
                 <p>Pływanie</p>
                 <DyscyplinaSpan>
@@ -178,7 +181,7 @@ function Oferta() {
             </DyscyplinyBox>
 
             <DyscyplinyBox>
-              <IMGdyscyplina src="Tenis.webp" alt="aktywność" />
+              <IMGdyscyplina src="Tenis.webp" alt="osoba grająca w tenisa" />
               <TextBoxDyscyplina>
                 <p>Tenis</p>
                 <DyscyplinaSpan>
@@ -192,7 +195,10 @@ function Oferta() {
             <AttentionSeeker effect="pulse" triggerOnce>
               <SupleBoxes>
                 <SupleBox>
-                  <IMGsuple src="Suple.webp" alt="wypo" />
+                  <IMGsuple
+                    src="Suple.webp"
+                    alt="zdjęcie suplementów spalaczy tłuszczu"
+                  />
 
                   <TextBoxSuple>
                     <Heading as="h4" style={{ textAlign: "center" }}>
@@ -205,7 +211,10 @@ function Oferta() {
                   </TextBoxSuple>
                 </SupleBox>
                 <SupleBox>
-                  <IMGsuple src="Suple.webp" alt="wypo" />
+                  <IMGsuple
+                    src="Suple.webp"
+                    alt="zdjęcie suplementów napoje izotoniczne"
+                  />
                   <TextBoxSuple>
                     <Heading as="h4" style={{ textAlign: "center" }}>
                       Napoje izotoniczne
@@ -217,7 +226,10 @@ function Oferta() {
                   </TextBoxSuple>
                 </SupleBox>
                 <SupleBox>
-                  <IMGsuple src="Suple.webp" alt="wypo" />
+                  <IMGsuple
+                    src="Suple.webp"
+                    alt="zdjęcie suplementów witamin"
+                  />
                   <TextBoxSuple>
                     <Heading as="h4" style={{ textAlign: "center" }}>
                       Witaminy, mikroelementy
@@ -229,7 +241,7 @@ function Oferta() {
                   </TextBoxSuple>
                 </SupleBox>
                 <SupleBox>
-                  <IMGsuple src="Suple.webp" alt="wypo" />
+                  <IMGsuple src="Suple.webp" alt="zdjęcie suplementów białka" />
                   <TextBoxSuple>
                     <Heading as="h4" style={{ textAlign: "center" }}>
                       Matrixy, kazeiny, białka
@@ -241,7 +253,10 @@ function Oferta() {
                   </TextBoxSuple>
                 </SupleBox>
                 <SupleBox>
-                  <IMGsuple src="Suple.webp" alt="wypo" />
+                  <IMGsuple
+                    src="Suple.webp"
+                    alt="zdjęcie suplementów kreatyna i przedtreningówka"
+                  />
                   <TextBoxSuple>
                     <Heading as="h4" style={{ textAlign: "center" }}>
                       Kreatyny i pre-workout'y
@@ -253,7 +268,7 @@ function Oferta() {
                   </TextBoxSuple>
                 </SupleBox>
                 <SupleBox>
-                  <IMGsuple src="Suple.webp" alt="wypo" />
+                  <IMGsuple src="Suple.webp" alt="zdjęcie suplementów bcaa" />
                   <TextBoxSuple>
                     <Heading as="h4" style={{ textAlign: "center" }}>
                       BCAA i Glutaminy
@@ -265,7 +280,10 @@ function Oferta() {
                   </TextBoxSuple>
                 </SupleBox>
                 <SupleBox>
-                  <IMGsuple src="Suple.webp" alt="wypo" />
+                  <IMGsuple
+                    src="Suple.webp"
+                    alt="zdjęcie suplementów  izolat białka"
+                  />
                   <TextBoxSuple>
                     <Heading as="h4" style={{ textAlign: "center" }}>
                       Izolaty białkowe
@@ -277,7 +295,10 @@ function Oferta() {
                   </TextBoxSuple>
                 </SupleBox>
                 <SupleBox>
-                  <IMGsuple src="Suple.webp" alt="wypo" />
+                  <IMGsuple
+                    src="Suple.webp"
+                    alt="zdjęcie suplementów na masę"
+                  />
                   <TextBoxSuple>
                     <Heading as="h4" style={{ textAlign: "center" }}>
                       Odżywki na masę
@@ -289,7 +310,10 @@ function Oferta() {
                   </TextBoxSuple>
                 </SupleBox>
                 <SupleBox>
-                  <IMGsuple src="Suple.webp" alt="wypo" />
+                  <IMGsuple
+                    src="Suple.webp"
+                    alt="zdjęcie suplementów gainery"
+                  />
                   <TextBoxSuple>
                     <Heading as="h4" style={{ textAlign: "center" }}>
                       Odżywki węglowodanowe

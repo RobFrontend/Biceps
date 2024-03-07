@@ -21,7 +21,7 @@ const IMG = styled.img`
 function Logo() {
   return (
     <StyledLogo onClick={onClickScrollSmoothTop}>
-      <IMG src="LogoBiceps.png" alt="logo biceps" />
+      <IMG src="LogoBiceps.png" alt="logo sklepu biceps" />
     </StyledLogo>
   );
 }

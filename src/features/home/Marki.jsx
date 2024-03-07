@@ -24,10 +24,10 @@ function Marki() {
   return (
     <StyledMarki>
       <Fade direction="down" triggerOnce>
-        <IMG src="LogoOlimp.png" alt="logo of nutrition company" />
-        <IMG src="LogoActivelab.png" alt="logo of nutrition company" />
-        <IMG src="LogoTrec.png" alt="logo of nutrition company" />
-        <IMG src="LogoHitec.png" alt="logo of nutrition company" />
+        <IMG src="LogoOlimp.png" alt="logo marki Olimp" />
+        <IMG src="LogoActivelab.png" alt="logo marki ActiveLab" />
+        <IMG src="LogoTrec.png" alt="logo marki Trec" />
+        <IMG src="LogoHitec.png" alt="logo marki Hi-Tec" />
       </Fade>
     </StyledMarki>
   );

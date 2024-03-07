@@ -99,7 +99,7 @@ function Kontakt() {
                 </p>
               </KontaktBox>
 
-              <IMG src="Kasa.webp" alt="Kasa" />
+              <IMG src="Kasa.webp" alt="kasa sklepu Biceps" />
             </KontaktBoxes>
           </Fade>
         </Container>
