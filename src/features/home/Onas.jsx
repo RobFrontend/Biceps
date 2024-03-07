@@ -173,7 +173,9 @@ function Onas() {
                   <GodzinySpan>Na telefon</GodzinySpan>
                 </DniOtwarcia>
                 <DniOtwarcia>
-                  <GodzinySpan>adres ulica</GodzinySpan>
+                  <GodzinySpan>
+                    Stefana Batorego 11, 05-120 Legionowo
+                  </GodzinySpan>
                 </DniOtwarcia>
               </Godziny>
               <Godziny>

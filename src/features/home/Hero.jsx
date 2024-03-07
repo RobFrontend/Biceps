@@ -10,7 +10,7 @@ const StyledHero = styled.section`
       rgb(0, 0, 0, 0.1),
       rgb(0, 0, 0, 0.4)
     ),
-    url("HeroBG.webp");
+    url("HeroBG1.webp");
   background-position: top;
   background-size: cover;
   min-height: 90vh;
@@ -53,6 +53,7 @@ const HeroButtonsBox = styled.div`
 
 const StyledButton = styled.a`
   font-size: 2.4rem;
+  font-weight: 600;
   border: none;
   background-color: var(--font-dark-dark);
   color: var(--font-medium-white);

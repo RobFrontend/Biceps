@@ -70,7 +70,7 @@ function Kontakt() {
               </KontaktBox>
               <KontaktBox>
                 <Heading as="h3">Adres</Heading>
-                <Heading as="h4">adresulicamiasto</Heading>
+                <Heading as="h4">Stefana Batorego 12, 05-120 Legionowo</Heading>
               </KontaktBox>
               <KontaktBox>
                 <Heading as="h3">Facebook</Heading>
@@ -106,7 +106,7 @@ function Kontakt() {
         <Fade>
           <iframe
             title="mapa biceps"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2434.3733585398395!2d20.931268993678685!3d52.39990927300171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471eb9f9b2b0b493%3A0x81f231c25f1ec47c!2sSklep%20Kulturystyczny%20BICEPS!5e0!3m2!1spl!2sus!4v1709731448890!5m2!1spl!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d608.6018243594581!2d20.93587066969159!3d52.39929411653354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471eb816f895b93f%3A0x7ebd23a3f4b32fd8!2sStefana%20Batorego%2011%2C%2005-120%20Legionowo!5e0!3m2!1spl!2spl!4v1709817944225!5m2!1spl!2spl"
           ></iframe>
         </Fade>
       </Fade>
