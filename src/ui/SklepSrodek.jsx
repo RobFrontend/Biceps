@@ -43,22 +43,22 @@ function SklepSrodek() {
       removeArrowOnDeviceType={["tablet", "mobile"]}
     >
       <IMGbox>
-        <IMG src="Sklep1.jpg" alt="wnętrze sklepu" />
+        <IMG src="Sklep1.webp" alt="wnętrze sklepu" />
       </IMGbox>
       <IMGbox>
-        <IMG src="Sklep2.jpg" alt="wnętrze sklepu" />
+        <IMG src="Sklep2.webp" alt="wnętrze sklepu" />
       </IMGbox>
       <IMGbox>
-        <IMG src="Sklep3.jpg" alt="wnętrze sklepu" />
+        <IMG src="Sklep3.webp" alt="wnętrze sklepu" />
       </IMGbox>
       <IMGbox>
-        <IMG src="Sklep4.jpg" alt="wnętrze sklepu" />
+        <IMG src="Sklep4.webp" alt="wnętrze sklepu" />
       </IMGbox>
       <IMGbox>
-        <IMG src="Sklep5.jpg" alt="wnętrze sklepu" />
+        <IMG src="Sklep5.webp" alt="wnętrze sklepu" />
       </IMGbox>
       <IMGbox>
-        <IMG src="Sklep6.jpg" alt="wnętrze sklepu" />
+        <IMG src="Sklep6.webp" alt="wnętrze sklepu" />
       </IMGbox>
     </Carousel>
   );
