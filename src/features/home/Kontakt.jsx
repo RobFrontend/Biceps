@@ -2,6 +2,25 @@ import { AttentionSeeker, Fade } from "react-awesome-reveal";
 import Container from "../../ui/Container";
 import Heading from "../../ui/Heading";
 import styled from "styled-components";
+import Carousel from "react-multi-carousel";
+
+const responsive = {
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 1,
+    slidesToSlide: 1, // optional, default to 1.
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 1,
+    slidesToSlide: 1, // optional, default to 1.
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+    slidesToSlide: 1, // optional, default to 1.
+  },
+};
 
 const StyledSection = styled.section`
   position: relative;
@@ -25,6 +44,8 @@ const KontaktBoxes = styled.div`
   grid-template-columns: repeat(2, 1fr);
   gap: 3.2rem;
   margin-bottom: 3.2rem;
+
+  justify-content: center;
   @media (max-width: 35em) {
     grid-template-columns: 1fr;
   }
@@ -70,7 +91,7 @@ function Kontakt() {
               </KontaktBox>
               <KontaktBox>
                 <Heading as="h3">Adres</Heading>
-                <Heading as="h4">Stefana Batorego 12, 05-120 Legionowo</Heading>
+                <Heading as="h4">Stefana Batorego 11, 05-120 Legionowo</Heading>
               </KontaktBox>
               <KontaktBox>
                 <Heading as="h3">Facebook</Heading>
@@ -97,6 +118,23 @@ function Kontakt() {
                   Zamów odżywki przez telefon i odbierz osobiście. Dostaniesz
                   rabat!
                 </p>
+                <Carousel
+                  responsive={responsive}
+                  infinite={true}
+                  autoPlay={true}
+                  autoPlaySpeed={4000}
+                  keyBoardControl={true}
+                  customTransition="all .5s"
+                  transitionDuration={500}
+                  containerClass="carousel-container"
+                  removeArrowOnDeviceType={["tablet", "mobile"]}
+                >
+                  <IMG src="Lokal1.webp" alt="fotografia lokalu" />
+
+                  <IMG src="Lokal2.webp" alt="fotografia lokalu 2" />
+
+                  <IMG src="Lokal3.webp" alt="fotografia lokalu 3" />
+                </Carousel>
               </KontaktBox>
 
               <IMG src="Kasa.webp" alt="kasa sklepu Biceps" />

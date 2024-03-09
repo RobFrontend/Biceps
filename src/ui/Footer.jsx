@@ -101,7 +101,7 @@ function Footer() {
                     Sklep-kulturystyczny-biceps
                   </StyledFooterLink>
                 </Pmenu>
-                <Pmenu>Adres: Stefana Batorego 12, 05-120 Legionowo</Pmenu>
+                <Pmenu>Adres: Stefana Batorego 11, 05-120 Legionowo</Pmenu>
               </div>
             </FooterMenu>
           </Fade>
