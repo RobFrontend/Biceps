@@ -141,7 +141,7 @@ function Hero() {
               </div>
             </HeroInfoBox>
             <HeroButtonsBox>
-              <StyledButton href="#oferta">Spradź ofertę</StyledButton>
+              <StyledButton href="#oferta">Sprawdź ofertę</StyledButton>
               <StyledButton href="#onas">O Bicepsie</StyledButton>
             </HeroButtonsBox>
           </HeroBox>

@@ -9,11 +9,10 @@ const StyledHeader = styled.header`
   justify-content: space-between;
 
   background: linear-gradient(
-      to bottom,
-      rgb(242, 242, 241, 0.6),
-      rgba(242, 242, 241, 0.4)
-    ),
-    url("OnasBG.webp");
+    to bottom,
+    rgb(242, 242, 241),
+    rgba(242, 242, 241, 0.8)
+  );
   background-position: top;
   background-size: cover;
   overflow: hidden;

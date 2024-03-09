@@ -3,6 +3,7 @@ import Container from "../../ui/Container";
 import Heading from "../../ui/Heading";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import SklepSrodek from "../../ui/SklepSrodek";
 
 const ProducenciBox = styled.div`
   display: flex;
@@ -195,6 +196,7 @@ function Onas() {
               </Godziny>
             </Dostep>
           </AttentionSeeker>
+          <SklepSrodek />
         </Container>
       </section>
     </Fade>

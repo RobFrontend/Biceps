@@ -5,6 +5,7 @@ import Container from "../../ui/Container";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { AttentionSeeker, Fade } from "react-awesome-reveal";
+import SklepSrodek from "../../ui/SklepSrodek";
 
 const responsive = {
   desktop: {
@@ -45,16 +46,16 @@ const SupleBoxes = styled.div`
   margin-top: 4.8rem;
   margin-bottom: 4.8rem;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 3.2rem;
   justify-content: center;
   justify-items: center;
 
   @media (max-width: 64em) {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   @media (max-width: 35em) {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 `;
 const SupleBox = styled.div`
@@ -69,6 +70,7 @@ const SupleBox = styled.div`
 
 const IMGsuple = styled.img`
   width: 100%;
+  filter: brightness(0.95) grayscale(0.05) opacity(0.95);
 `;
 
 const TextBoxSuple = styled.div`
@@ -196,7 +198,7 @@ function Oferta() {
               <SupleBoxes>
                 <SupleBox>
                   <IMGsuple
-                    src="Suple.webp"
+                    src="OfertaSpalacze.webp"
                     alt="zdjęcie suplementów spalaczy tłuszczu"
                   />
 
@@ -212,7 +214,7 @@ function Oferta() {
                 </SupleBox>
                 <SupleBox>
                   <IMGsuple
-                    src="Suple.webp"
+                    src="OfertaIzotoniki.webp"
                     alt="zdjęcie suplementów napoje izotoniczne"
                   />
                   <TextBoxSuple>
@@ -227,7 +229,7 @@ function Oferta() {
                 </SupleBox>
                 <SupleBox>
                   <IMGsuple
-                    src="Suple.webp"
+                    src="OfertaWitaminy.webp"
                     alt="zdjęcie suplementów witamin"
                   />
                   <TextBoxSuple>
@@ -241,7 +243,10 @@ function Oferta() {
                   </TextBoxSuple>
                 </SupleBox>
                 <SupleBox>
-                  <IMGsuple src="Suple.webp" alt="zdjęcie suplementów białka" />
+                  <IMGsuple
+                    src="OfertaMatrixy.webp"
+                    alt="zdjęcie suplementów białka"
+                  />
                   <TextBoxSuple>
                     <Heading as="h4" style={{ textAlign: "center" }}>
                       Matrixy, kazeiny, białka
@@ -254,7 +259,7 @@ function Oferta() {
                 </SupleBox>
                 <SupleBox>
                   <IMGsuple
-                    src="Suple.webp"
+                    src="OfertaKreatyny.webp"
                     alt="zdjęcie suplementów kreatyna i przedtreningówka"
                   />
                   <TextBoxSuple>
@@ -268,7 +273,10 @@ function Oferta() {
                   </TextBoxSuple>
                 </SupleBox>
                 <SupleBox>
-                  <IMGsuple src="Suple.webp" alt="zdjęcie suplementów bcaa" />
+                  <IMGsuple
+                    src="OfertaBcaa.webp"
+                    alt="zdjęcie suplementów bcaa"
+                  />
                   <TextBoxSuple>
                     <Heading as="h4" style={{ textAlign: "center" }}>
                       BCAA i Glutaminy
@@ -281,7 +289,7 @@ function Oferta() {
                 </SupleBox>
                 <SupleBox>
                   <IMGsuple
-                    src="Suple.webp"
+                    src="OfertaIzolaty.webp"
                     alt="zdjęcie suplementów  izolat białka"
                   />
                   <TextBoxSuple>
@@ -296,7 +304,7 @@ function Oferta() {
                 </SupleBox>
                 <SupleBox>
                   <IMGsuple
-                    src="Suple.webp"
+                    src="OfertaMasa.webp"
                     alt="zdjęcie suplementów na masę"
                   />
                   <TextBoxSuple>
@@ -311,7 +319,7 @@ function Oferta() {
                 </SupleBox>
                 <SupleBox>
                   <IMGsuple
-                    src="Suple.webp"
+                    src="OfertaGainer.webp"
                     alt="zdjęcie suplementów gainery"
                   />
                   <TextBoxSuple>
@@ -325,6 +333,7 @@ function Oferta() {
                   </TextBoxSuple>
                 </SupleBox>
               </SupleBoxes>
+              {/* <SklepSrodek /> */}
             </AttentionSeeker>
           </Fade>
           <Heading as="h3">Dodatkowe usługi</Heading>

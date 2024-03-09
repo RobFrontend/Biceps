@@ -118,7 +118,7 @@ function Kontakt() {
                   Zamów odżywki przez telefon i odbierz osobiście. Dostaniesz
                   rabat!
                 </p>
-                <Carousel
+                {/* <Carousel
                   responsive={responsive}
                   infinite={true}
                   autoPlay={true}
@@ -128,13 +128,13 @@ function Kontakt() {
                   transitionDuration={500}
                   containerClass="carousel-container"
                   removeArrowOnDeviceType={["tablet", "mobile"]}
-                >
-                  <IMG src="Lokal1.webp" alt="fotografia lokalu" />
+                > */}
+                <IMG src="Lokal1.webp" alt="fotografia lokalu" />
 
-                  <IMG src="Lokal2.webp" alt="fotografia lokalu 2" />
+                {/* <IMG src="Lokal2.webp" alt="fotografia lokalu 2" />
 
-                  <IMG src="Lokal3.webp" alt="fotografia lokalu 3" />
-                </Carousel>
+                  <IMG src="Lokal3.webp" alt="fotografia lokalu 3" /> */}
+                {/* </Carousel> */}
               </KontaktBox>
 
               <IMG src="Kasa.webp" alt="kasa sklepu Biceps" />
